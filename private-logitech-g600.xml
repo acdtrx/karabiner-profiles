@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root>
+<devicevendordef>
+<vendorname>LOGITECH</vendorname>
+<vendorid>0x05ac</vendorid>
+</devicevendordef>
+<deviceproductdef>
+<productname>LOGITECH_G600</productname>
+<productid>0xc24a</productid>
+</deviceproductdef>
+<item>
+<name>Logitech G600 Numbers to NumPad</name>
+<identifier>private.logitechg600</identifier>
+<device_only>
+DeviceVendor::LOGITECH, DeviceProduct::LOGITECH_G600
+</device_only>
+<autogen>__KeyToKey__ KeyCode::KEY_1, KeyCode::KEYPAD_1</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_2, KeyCode::KEYPAD_2</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_3, KeyCode::KEYPAD_3</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_4, KeyCode::KEYPAD_4</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::KEYPAD_5</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::KEYPAD_6</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::KEYPAD_7</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::KEYPAD_8</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_9, KeyCode::KEYPAD_9</autogen>
+<autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::KEYPAD_0</autogen>
+<autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::KEYPAD_MINUS</autogen>
+<autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::KEYPAD_PLUS</autogen>
+</item>
+</root>
